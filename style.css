@@ -1,0 +1,127 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.nav{
+    margin-top: 20px;   
+}
+
+.nav .container{
+    display: flex;
+}
+
+.nav .nama,
+.nav .menu {
+    width: calc(100%/2);
+}
+
+.nav .nama{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav .menu{
+    text-align: right;
+    gap: 30;
+}
+
+.nav .menu .menu-item {
+    color: black;
+    text-decoration: none;
+    opacity: .5;
+}
+
+.nav .menu-item:hover{
+    opacity: 1;
+}
+
+.nav .menu .menu-item-active{
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.img-profil{
+    text-align: center;
+    padding: 63px 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 63px;
+    left: 0;
+    z-index: -1;
+}
+
+.img-headline,
+.img-subline, .img-p{
+    color: aliceblue;
+    text-align: left;
+}
+
+.button-resume{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 80px;
+    padding: 12px 17px;
+    text-decoration: none;
+    float: left;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.more .more-info{
+   text-align: center;
+   font-size: 15px;
+}
+
+.kolom{
+    padding-top: 10px;
+}
+
+.headline{
+    font-size: 50px;
+    color: grey;
+}
+
+.diri-headline{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-p{
+    margin-left: 40px;
+    color: grey;
+    font-size: 17px;
+    padding: .5px;
+}
+
+.diri-button{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 80px;
+    padding: 12px 17px;
+    float: right;   
+}
+
+.button-more{
+    text-decoration: none;
+}
